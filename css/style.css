@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFE2B0;
+}
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+li{
+    display: inline;
+    margin-right: 100px;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+a:hover{
+    color: red;
+}
+li:last-child{
+    margin-right: 0px;
+}
+nav{
+    margin-bottom: 20px;
+}
+.section-about{
+    height: 640px;
+    background-image: url(../img/backgraund.jpg);;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+.section-about__block{
+    height: 190px;
+    width: 420px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8)0%, rgba(234, 156, 65, 0.8) 100%);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    padding-top: 15px;
+}
+.section-about__border{
+    height: 160px;
+    width: 390px;
+    border: 1px solid black;
+    padding-left: 28px;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+.section-about__title{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    padding: 17px 0 0 0px;
+    margin-bottom: 9px;
+}
+.section-about__text{
+    font-size: 12px;
+    margin: 0px;
+    text-align: left;
+}
+.section-description{
+    margin-bottom: 20px;
+}
+.section-description__icon-box{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-description__icon-box img{
+    margin-right: 28px;
+}
+.section-description__icon-box img :last-child{
+    margin-right: 0px;
+}
+.section-description__tex-box-title{
+    text-align: center;
+    font-size: 96px;
+    margin: 0px;
+}
+.red{
+    color: #f15b40;
+}
+.section-description__tex-box__text{
+    font-size: 18px;
+    margin:0 auto;
+    text-align: center;
+    width: 1000px;
+}
+.section-map__title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+}
+iframe{
+    display: block;
+    margin:0 auto;
+}
+.footer__line{
+    width: 1024px;
+    height: 1px;
+    margin: 0 auto;
+    background-color: #999;
+    margin-bottom: 20px;
+}
+
+.section-map{
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 80px;
+}
+
+h1{
+    font-family: arial;
+    font-weight: 800px;
+}
