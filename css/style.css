@@ -126,3 +126,9 @@ h1{
     font-family: arial;
     font-weight: 800px;
 }
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.philosopher{
+    font-family: 'Philosopher', sans-serif;
+}
